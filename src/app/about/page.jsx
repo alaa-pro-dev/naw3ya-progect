@@ -47,7 +47,7 @@ export default function AboutPage() {
                   href="/" 
                   className="inline-block bg-blue-600 text-white font-bold py-3 px-10 rounded-full hover:bg-blue-700 transition-all shadow-md"
                 >
-                  ابدأ رحلتك التعليمية الآن
+           ابدأ رحلتك التعليمية
                 </Link>
             </div>
           </div>
