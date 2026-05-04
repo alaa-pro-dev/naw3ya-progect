@@ -19,6 +19,7 @@ export default function Home() {
             >
               ابدأ التعلم الآن
             </Link>
+            {/* الرابط يوجه الآن لصفحة مستقلة */}
             <Link 
               href="/about" 
               className="bg-transparent border-2 border-white text-white font-bold py-3 px-8 rounded-full hover:bg-white hover:text-blue-700 transition-all"
@@ -36,7 +37,7 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:scale-105 transition-transform">
               <div className="text-4xl mb-4 text-blue-600">📚</div>
-              <h3 className="text-xl font-bold mb-3">دروس منظمة</h3>
+              <h3 className="text-xl font-bold mb-3">منصة منظمة</h3>
               <p className="text-slate-600">محتوى تعليمي مفصل يغطي منهج الصف الثاني الإعدادي بدقة.</p>
             </div>
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:scale-105 transition-transform">
@@ -53,27 +54,11 @@ export default function Home() {
         </div>
       </section>
 
-      {/* قسم الوصول السريع (Quick Access) - تم إصلاح الأخطاء هنا */}
-      <section className="py-16 container mx-auto px-4">
-        <div className="bg-blue-50 rounded-3xl p-10 flex flex-col md:flex-row items-center justify-between shadow-inner">
-          <div className="mb-8 md:mb-0">
-            <h2 className="text-2xl font-bold text-blue-900 mb-2">جاهز لتجربة الاختبار؟</h2>
-            <p className="text-blue-700">اختبر معلوماتك في وحدة الإخراج والجهاز البولي الآن.</p>
-          </div>
-          <Link 
-            href="/exam" 
-            className="bg-blue-600 text-white font-bold py-3 px-10 rounded-xl hover:bg-blue-700 shadow-md shadow-blue-200 transition-all"
-          >
-            دخول الاختبار
-          </Link>
-        </div>
-      </section>
-
-      {/* التذييل (Footer) - تم تغيير اللون من الأسود إلى أزرق داكن احترافي */}
-      <footer className="bg-blue-950 text-blue-200 py-10 text-center border-t border-blue-900">
+      {/* التذييل (Footer) */}
+      <footer className="bg-blue-950 text-blue-200 py-10 text-center">
         <div className="container mx-auto px-4">
           <p className="font-bold mb-2">منصة العلوم التفاعلية</p>
-          <p className="text-sm opacity-70">© 2026 جميع الحقوق محفوظة - تم التصميم بكل حب لمساعدة الطلاب</p>
+          <p className="text-sm opacity-70">© 2026 جميع الحقوق محفوظة</p>
         </div>
       </footer>
     </main>
